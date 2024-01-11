@@ -10,20 +10,20 @@ Or everything you need to know for the exam
 
 A measure of the information content of an event
 
-## Event
+## Event - X
 
 A stochastic variable $X$ is a set of events which all have a chance of
 occurring with some probability $p_i$ for $i ∈ |X|$ where $|X|$ denotes the
 cardinality of the alphabet (the number of events which may occur for the
 stochastic variable)
 
-## Entropy
+## Entropy - H(X)
 
 Entropy is defined as $H(X)=-∑p_i⋅log(p_i)$ where $p_i$ is the probability of
 some event $i$, entropy is positive. In layman's terms it is the average
 information of any event divided by the uncertainty
 
-### Shannon information
+### Shannon information - I(p)
 
 $I(p)=-log_2(p)$ gives the information in bits
 $I(p)=-log_e(p)$ gives the information in nats
@@ -32,6 +32,6 @@ $I(p)=-log_e(p)$ gives the information in nats
 
 > How fast can we transmit data such that we do not lose information
 
-## SNR
+## Signal to noise ratio - SNR
 
-Signal to noise ratio
+Signal divided by the noise
