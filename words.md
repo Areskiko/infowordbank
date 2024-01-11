@@ -2,11 +2,7 @@
 
 ## Important functions
 
-$$
-y = x + w
-
-||x||^2 \leq NP
-$$
+$$ y = x + w $$ $$ ||x||^2 \leq NP $$
 
 ## AWGN
 
@@ -32,6 +28,12 @@ The [Q-function](https://en.wikipedia.org/wiki/Q-function), also known as
 `Gaussian Q function` quantifies the probability of an error to exceed a certain
 threshold.
 
+### AWGN capacity
+
+The capacity of `AWGN` is called `spectral efficiency`.  
+
+TODO
+
 ## M-PAM repetition
 
 TODO
@@ -47,3 +49,7 @@ sphere some other way.
 The goal of sphere packing is to maximize the number of codewords in the
 available sphere. Any codeword has its own radius in which it interferes with
 other codewords.
+
+Max rate in the real dimensions:
+
+$$\frac{1}{N}\log{\frac{N(P+\sigma^2)}{N\sigma^2}}^\frac{N}{2}$$
