@@ -2,6 +2,11 @@
 
 Or everything you need to know for the exam
 
+- X -> Event
+- P(X=i) or p_i -> probability of event i
+- H(X) -> Entropy
+- I(p) -> Information
+
 # Applications in Compression
 
 > What is the minimum space needed for some information
@@ -25,7 +30,8 @@ information of any event divided by the uncertainty
 
 ### Binary Entropy
 
-For a binary stochastic variable `X`
+For a binary stochastic variable `X` where `P(X=0)=p` and `P(X=1)=1-p` then
+`H(X)=-p⋅log(p)-(1-p)⋅log(1-p)`, which is maximal with `p=0.5`
 
 ### Shannon information - I(p)
 
