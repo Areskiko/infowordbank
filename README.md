@@ -1,5 +1,7 @@
 # Word Bank for Information Theory
 
+Or everything you need to know for the exam
+
 # Applications in Compression
 
 > What is the minimum space needed for some information
