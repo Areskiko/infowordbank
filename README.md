@@ -44,13 +44,17 @@ For a binary stochastic variable `X` where `P(X=0)=p` and `P(X=1)=1-p` then
 
 The entropy for two discrete stochastic variables is given by
 `H(X,Y) = -E[log(p(X,Y)] = -∑∑p(x,y)log(p(x,y))` where `E` is the expected
-value. It is given that `H(X,Y) ≤ H(X)+H(Y)`
+value
+
+It is given that `H(X,Y) ≤ H(X)+H(Y)`
 
 ### Conditional Entropy
 
 The entropy for one stochastic variable given another stochastic variable is
 given by `H(X|Y) ≜ E[H(X|Y=y)] = -∑∑p(x|Y=y)⋅p(y)⋅log(p(x|Y=y))` which by
 Bayes rule is `-∑∑p(x,y)⋅log(p(x,y)/p(y))`
+
+It is given that `H(X|Y) ≤ H(X)`
 
 # Applications in Communication
 
